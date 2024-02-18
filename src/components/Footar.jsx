@@ -2,9 +2,9 @@ import React from "react";
 
 const Footar = () => {
   return (
-    <div className="bg-[#2D2E32] text-white py-14">
+    <div className="bg-[#2D2E32] text-white py-14 sm:text-center md:text-left">
       <div className="flex justify-around items-center sm:max-w-[90vw] md:max-w-[80vw] m-auto sm:flex-col sm:gap-5 md:flex-row">
-        <p className="font-bold text-lg">
+        <p className="font-bold md:text-lg">
           Copyright © 2024. All rights are reserved
         </p>
         <div className="flex gap-3">
