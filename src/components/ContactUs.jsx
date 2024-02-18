@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className="sm:px-14 md:px-24 py-16 max-w-[70vw] m-auto">
+    <div className="sm:px-14 md:px-24 py-16 sm:ma-w-[90vw] md:max-w-[70vw] m-auto">
       <div className="flex flex-col gap-3 sm:text-center md:text-left">
         <h3 className="text-blue-600 font-bold text-xl">CONTACT</h3>
         <h4 className="sm:text-xl md:text-2xl font-bold tracking-wide">
