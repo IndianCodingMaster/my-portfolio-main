@@ -6,7 +6,7 @@ const Main = () => {
     <main className="bg-[#F9F9F9] shadow-md">
       <section className="sm:pt-12 md:py-28 flex sm:flex-col-reverse md:flex-row justify-center items-center gap-10  xl:max-w-[80vw] md:max-w-[90vw] lg:gap-38 md:gap-28 sm m-auto sm:px-3">
         <div className="lg:pt-8 pb-8 flex flex-col gap-7 md:justify-center sm:items-center md:items-start">
-          <div className="flex flex-col sm:items-center md:items-start gap-2 w-[430px]">
+          <div className="flex flex-col sm:items-center md:items-start gap-2 w-[500px]">
             <h2 className="md:text-5xl sm:text-4xl font-extrabold text-[#2D2E32]">
               Front-End React
             </h2>
@@ -15,8 +15,8 @@ const Main = () => {
             </h2>
           </div>
 
-          <div className="m-4 mx-auto flex flex-col sm:items-center md:items-start max-w-[490px]">
-            <p>Hi, I'm Stefan Topalovic.A passionate Front-end React</p>
+          <div className="m-4 mx-auto flex flex-col sm:items-center md:items-start ">
+            <p>Hi, I'm Stefan Topalovic. A passionate Front-end React</p>
             <p> Developer based in Belgrade, Serbia. 📍</p>
           </div>
 
