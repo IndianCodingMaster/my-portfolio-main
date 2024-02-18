@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbaar = () => {
   return (
-    <nav className="flex justify-between m-auto border-b-2 sm:px-8 md:px-16 py-5 text-lg font-medium shadow-sm">
+    <nav className="flex justify-between m-auto border-b-2 sm:px-5 md:px-16 py-5 text-lg font-medium shadow-sm">
       <div className="flex gap-1 cursor-pointer font-bold text-[19px]">
         <span>coding</span>
         <span>decoding</span>

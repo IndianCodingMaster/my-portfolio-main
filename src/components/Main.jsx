@@ -3,16 +3,22 @@ import profileImg from "../assets/profile.jpg";
 
 const Main = () => {
   return (
-    <main className="sm:pt-12 md:py-28 flex sm:flex-col-reverse lg:flex-row justify-center items-center gap-10  xl:max-w-[80vw] md:max-w-[90vw] lg:gap-38 md:gap-28 sm m-auto sm:px-3">
-      <div className="lg:pt-8 pb-8 flex flex-col gap-7">
-        <h2 className="text-5xl font-extrabold text-[#2D2E32]">
-          Front-End React
-          <br /> Developer
-        </h2>
-        <p>
-          Hi, I'm Stefan Topalovic. A passionate Front-end React
-          <br /> Developer based in Belgrade, Serbia. 📍
-        </p>
+    <main className="sm:pt-12 md:py-28 flex sm:flex-col-reverse md:flex-row justify-center items-center gap-10  xl:max-w-[80vw] md:max-w-[90vw] lg:gap-38 md:gap-28 sm m-auto sm:px-3">
+      <div className="lg:pt-8 pb-8 flex flex-col gap-7 md:justify-center sm:items-center md:items-start">
+        <div className="flex flex-col sm:items-center md:items-start gap-2 w-[430px]">
+          <h2 className="md:text-5xl sm:text-4xl font-extrabold text-[#2D2E32]">
+            Front-End React
+          </h2>
+          <h2 className="md:text-5xl sm:text-4xl font-extrabold text-[#2D2E32]">
+            Developer
+          </h2>
+        </div>
+
+        <div className="flex flex-col sm:items-center md:items-start max-w-[500px]">
+          <p>Hi, I'm Stefan Topalovic. A passionate Front-end React</p>
+          <p> Developer based in Belgrade, Serbia. 📍</p>
+        </div>
+
         <div className="flex gap-4">
           <a href="" className="hover:text-blue-600">
             <svg
@@ -53,8 +59,8 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="sm:w-[300px] sm:h-[300px] md:w-[250px] md:h-[250px]  lg:w-[400px] lg:h-[400px] rounded-3xl flex justify-center items-center overflow-hidden ">
-        <img className="w-[300px] h-[300px]" src={profileImg} alt="" />
+      <div className="sm:w-[300px] sm:h-[300px] md:w-[3000px] md:h-[300px]  lg:w-[400px] lg:h-[400px] rounded-3xl flex justify-center items-center overflow-hidden ">
+        <img className="w-[300px] h-[300px]" src={profileImg} alt="profile" />
       </div>
     </main>
   );
