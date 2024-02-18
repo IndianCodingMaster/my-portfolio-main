@@ -3,7 +3,7 @@ import profileImg from "../assets/profile.jpg";
 
 const Main = () => {
   return (
-    <main className="bg-[#F9F9F9] shadow-md">
+    <main className="bg-[#F9F9F9]">
       <section className="sm:pt-12 md:py-28 flex sm:flex-col-reverse md:flex-row justify-center items-center gap-10  xl:max-w-[80vw] md:max-w-[90vw] lg:gap-38 md:gap-28 sm:m-auto ">
         <div className="lg:pt-8 pb-8 flex flex-col gap-7 md:justify-center sm:items-center md:items-start">
           <div className="flex flex-col sm:items-center md:items-start gap-2 w-[430px]">
