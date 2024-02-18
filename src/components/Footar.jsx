@@ -7,8 +7,11 @@ const Footar = () => {
         <p className="font-bold md:text-lg">
           Copyright © 2024. All rights are reserved
         </p>
-        <div className="flex gap-3">
-          <a href="">
+        <div className="flex gap-4">
+          <a
+            href=""
+            className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 delay-100"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -28,7 +31,10 @@ const Footar = () => {
               <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
             </svg>
           </a>
-          <a href="">
+          <a
+            href=""
+            className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 delay-100"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"

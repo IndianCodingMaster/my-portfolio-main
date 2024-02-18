@@ -26,7 +26,10 @@ const Main = () => {
           </div>
 
           <div className="flex gap-4">
-            <a href="" className="hover:text-blue-600">
+            <a
+              href=""
+              className="hover:text-blue-600 delay-75 transition-all ease-in"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -46,7 +49,10 @@ const Main = () => {
                 <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
               </svg>
             </a>
-            <a href="" className="hover:text-blue-600">
+            <a
+              href=""
+              className="hover:text-blue-600 delay-75 transition-all ease-in"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"

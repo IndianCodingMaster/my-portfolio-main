@@ -9,10 +9,18 @@ const Navbaar = () => {
       </div>
       <div className="hidden md:block">
         <ul className="flex gap-5">
-          <li className="cursor-pointer hover:text-blue-400">Home</li>
-          <li className="cursor-pointer hover:text-blue-400">About</li>
-          <li className="cursor-pointer hover:text-blue-400">Projects</li>
-          <li className="cursor-pointer hover:text-blue-400">Contacts</li>
+          <li className="cursor-pointer hover:text-blue-400 delay-75 transition-all ease-in">
+            Home
+          </li>
+          <li className="cursor-pointer hover:text-blue-400 delay-75 transition-all ease-in">
+            About
+          </li>
+          <li className="cursor-pointer hover:text-blue-400 delay-75 transition-all ease-in">
+            Projects
+          </li>
+          <li className="cursor-pointer hover:text-blue-400 delay-75 transition-all ease-in">
+            Contacts
+          </li>
         </ul>
       </div>
       <div className="md:hidden block cursor-pointer hover:text-blue-600">
