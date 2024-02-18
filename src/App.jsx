@@ -1,3 +1,15 @@
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-}
+import React from "react";
+import "./App.css";
+import Navbaar from "./components/Navbar";
+import Main from "./components/Main";
+
+const App = () => {
+  return (
+    <div>
+      <Navbaar />
+      <Main />
+    </div>
+  );
+};
+
+export default App;
