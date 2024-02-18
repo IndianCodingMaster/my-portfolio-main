@@ -15,8 +15,8 @@ const Main = () => {
             </h2>
           </div>
 
-          <div className="flex flex-col sm:items-center md:items-start max-w-[500px]">
-            <p>Hi, I'm Stefan Topalovic. A passionate Front-end React</p>
+          <div className="m-4 mx-auto flex flex-col sm:items-center md:items-start max-w-[490px]">
+            <p>Hi, I'm Stefan Topalovic.A passionate Front-end React</p>
             <p> Developer based in Belgrade, Serbia. 📍</p>
           </div>
 
