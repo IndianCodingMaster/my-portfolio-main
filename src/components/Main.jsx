@@ -54,7 +54,7 @@ const Main = () => {
       </div>
 
       <div className="sm:w-[300px] sm:h-[300px] md:w-[250px] md:h-[250px]  lg:w-[400px] lg:h-[400px] rounded-3xl flex justify-center items-center overflow-hidden ">
-        <img className="w-[400px] h-[400px]" src={profileImg} alt="" />
+        <img className="w-[300px] h-[300px]" src={profileImg} alt="" />
       </div>
     </main>
   );
