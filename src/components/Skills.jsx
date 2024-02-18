@@ -7,7 +7,7 @@ const Skills = () => {
         <p>Tech Stack</p>
         <div className="text-2xl text-gray-400 hidden md:block">|</div>
       </div>
-      <div className="max-w-[60vw]">
+      <div className="md:max-w-[60vw] sm:max-w-[80vw]">
         <ul className="flex flex-wrap gap-7 justify-center">
           <li className="cursor-pointer ">
             <img src="https://skillicons.dev/icons?i=html,css" alt="" />
