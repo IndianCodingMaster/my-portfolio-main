@@ -21,8 +21,8 @@ const Main = () => {
           </div>
 
           <div className="flex flex-col sm:items-center md:items-start max-w-[500px] text-sm mx-1 m-auto">
-            <p>Hi, I'm Stefan Topalovic. A passionate Front-end React</p>
-            <p> Developer based in Belgrade, Serbia. 📍</p>
+            <p>Hi, I'm Satya Prakash. A passionate Front-end React</p>
+            <p> Developer based in Uttar Pradesh, India. 📍</p>
           </div>
 
           <div className="flex gap-4">
