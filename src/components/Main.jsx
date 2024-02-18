@@ -1,4 +1,5 @@
 import React from "react";
+import profileImg from "../assets/profile.jpg";
 
 const Main = () => {
   return (
@@ -53,11 +54,7 @@ const Main = () => {
       </div>
 
       <div className="sm:w-[300px] sm:h-[300px] md:w-[250px] md:h-[250px]  lg:w-[400px] lg:h-[400px] rounded-3xl flex justify-center items-center overflow-hidden ">
-        <img
-          className="w-[400px] h-[400px]"
-          src="https://www.stefantopalovic.com/static/media/pfp_webp.f334283842f7b24cafd1.webp"
-          alt=""
-        />
+        <img className="w-[400px] h-[400px]" src={profileImg} alt="" />
       </div>
     </main>
   );
