@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Navbaar = () => {
-  const [sidebar, setSidebar] = useState(true);
+  const [sidebar, setSidebar] = useState(false);
 
   function showMenu() {
     setSidebar(!sidebar);
