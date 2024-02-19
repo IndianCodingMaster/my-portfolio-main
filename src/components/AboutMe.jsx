@@ -2,7 +2,10 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="px-10 py-28 m-auto flex justify-center items-center md:gap-20 sm:gap-8 xl:max-w-[80vw] md:max-w-[90vw] sm:flex-col md:flex-row">
+    <div
+      id="aboutme"
+      className="px-10 py-28 m-auto flex justify-center items-center md:gap-20 sm:gap-8 xl:max-w-[80vw] md:max-w-[90vw] sm:flex-col md:flex-row"
+    >
       <div className="max-w-[450px] md:h-[350px] rounded-xl shadow-2xl border">
         <img
           className="w-full h-full rounded-xl "
