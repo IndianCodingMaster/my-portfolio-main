@@ -27,7 +27,8 @@ const Main = () => {
 
           <div className="flex gap-4">
             <a
-              href=""
+              href="https://www.linkedin.com/in/satyaprakash911"
+              target="_blank"
               className="hover:text-blue-600 delay-75 transition-all ease-in"
             >
               <svg
@@ -50,7 +51,8 @@ const Main = () => {
               </svg>
             </a>
             <a
-              href=""
+              href="https://github.com/IndianCodingMaster"
+              target="_blank"
               className="hover:text-blue-600 delay-75 transition-all ease-in"
             >
               <svg

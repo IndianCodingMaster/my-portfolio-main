@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Navbaar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Skills from "./components/Skills";
 import AboutMe from "./components/AboutMe";
@@ -11,7 +11,7 @@ import Footar from "./components/Footar";
 const App = () => {
   return (
     <div>
-      <Navbaar />
+      <Navbar />
       <Main />
       <Skills />
       <AboutMe />

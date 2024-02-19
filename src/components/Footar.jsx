@@ -9,7 +9,8 @@ const Footar = () => {
         </p>
         <div className="flex gap-4">
           <a
-            href=""
+            href="https://www.linkedin.com/in/satyaprakash911"
+            target="_blank"
             className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 delay-100"
           >
             <svg
@@ -32,7 +33,8 @@ const Footar = () => {
             </svg>
           </a>
           <a
-            href=""
+            href="https://github.com/IndianCodingMaster"
+            target="_blank"
             className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 delay-100"
           >
             <svg
