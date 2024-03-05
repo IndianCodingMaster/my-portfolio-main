@@ -4,7 +4,7 @@ import weatherapp from "../assets/weather-app.png";
 const Project = () => {
   return (
     <div className=" flex justify-center items-center flex-wrap gap-7">
-      <div className="sm:max-w-[600px] max-w-[400px]  p-5 rounded-2xl shadow-xl">
+      <div className="p-5 rounded-2xl shadow-xl">
         <img
           className="shadow-xl hover:scale-95 delay-75 transition-all ease-in"
           src={weatherapp}
