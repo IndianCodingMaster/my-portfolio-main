@@ -7,6 +7,7 @@ import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import ContactUs from "./components/ContactUs";
 import Footar from "./components/Footar";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Projects />
       <ContactUs />
       <Footar />
+      <SpeedInsights />
     </div>
   );
 };

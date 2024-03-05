@@ -45,7 +45,7 @@ const Navbaar = () => {
       </div>
       <div className="md:hidden block ">
         {sidebar ? (
-          <div className="w-[50vw] h-[100vh] flex justify-center items-start fixed top-0 right-0 font-bold text-center bg-gray-50">
+          <div className="w-[70vw] h-[100vh] flex justify-center items-start fixed top-0 right-0 font-bold text-center bg-gray-50 border-l-2">
             <button
               onClick={closeMenu}
               className="absolute top-5 right-4 text-3xl hover:text-blue-600"
