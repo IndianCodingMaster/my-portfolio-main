@@ -11,12 +11,12 @@ const Project = () => {
           alt=""
         />
         <div className="mt-4 flex justify-around items-center gap-4">
-          <button className="hover:bg-blue-600 hover:text-white w-[7rem] sm:text-sm md:text-xl border-[2px] border-blue-600 px-4 py-2.5 rounded-full delay-75 transition-all ease-in hover:scale-110">
+          <button className="hover:bg-blue-600 hover:text-white md:w-[8rem] sm:text-sm border-[2px] border-blue-600 px-4 py-2.5 rounded-full delay-75 transition-all ease-in hover:scale-110">
             <a href="https://github.com/IndianCodingMaster/Weather-App">
               GitHub
             </a>
           </button>
-          <button className="hover:bg-blue-600 hover:text-white  w-[7rem] sm:text-sm md:text-xl border-[2px] border-blue-600 px-4 py-2.5 rounded-full delay-75 transition-all ease-in hover:scale-110">
+          <button className="hover:bg-blue-600 hover:text-white md:w-[8rem] sm:text-sm border-[2px] border-blue-600 px-4 py-2.5 rounded-full delay-75 transition-all ease-in hover:scale-110">
             <a href="https://weather-app-satya.vercel.app/">Live Demo</a>
           </button>
         </div>
