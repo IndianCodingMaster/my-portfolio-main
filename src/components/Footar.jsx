@@ -57,6 +57,14 @@ const Footar = () => {
               R
             </a>
           </div>
+          <div className="w-[30px] h-[30px] bg-white rounded-full text-black text-[16px] flex justify-center items-center cursor-pointer">
+            <a
+              href="https://www.instagram.com/satya.prakash911/"
+              target="_blank"
+            >
+              SP
+            </a>
+          </div>
         </div>
       </div>
     </div>
